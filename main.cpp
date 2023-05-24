@@ -7,12 +7,28 @@ struct Datum{
     int dd,mm,gg;
 };
 
+struct Predmeti{
+    struct Bosanski{
+        int ocjene[100];
+    };
+    struct Matematika{
+        int ocjene[100];
+    };
+    struct Engleski{
+        int ocjene[100];
+    };
+    struct Informatika{
+        int ocjene[100];
+    };
+};
+
 struct Osoba{
     string ime,prezime;
     int razred;
     char odjeljenje;
     Datum d;
 };
+
 
 int main()
 {
